@@ -20,6 +20,8 @@ Mate is an open source CI tool that can make easier the software building, testi
 
 ## Why Mate
 
+## Installing Mate
+
 
 
 
