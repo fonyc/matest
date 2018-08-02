@@ -1,39 +1,22 @@
-Mate CI
+Introduction
 ===================
 
-Mate is an open source CI tool that can make easier the software building, testing, deployment through automatization. It is docker contained itself aswell every action Mate runs.  
+Mate is an open source CI tool that can make easier the software building, testing, deployment through automatization. It is docker contained itself aswell every action that Mate runs.  
 
 Table of Contents
 =================
 
-  * [What is Mate](#what-is-mate)
-    * [asd](#asd)
-    * [asdf](#asdf)
-    * [asdfasdf](#asdfasdf)
+  * [Introduction](#introduction)
   * [Why Mate](#why-mate)
+  * [Installing Mate](#installing-mate)
+  * [Matefile](#matefile)
+    * [example](#matefile-example)
+   
   
-  
-  
-  
-  
-  
-  
-  
-## What is Mate
+## Introduction
 
-### asd 
+Mate is an open source CI tool that can make easier the software building, testing, deployment through automatization. It is docker contained itself aswell every action Mate runs.  
 
+### example
 
-
-
-
-
-
-
-
-
-
-
-
-### asdf
  
