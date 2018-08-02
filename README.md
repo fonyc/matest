@@ -1,7 +1,7 @@
 Mate CI
 ===================
 
-Mate is a CI tool made to make easier the software building, testing, deployment through automatization.
+Mate is a open source CI tool that can make easier the software building, testing, deployment through automatization. It is docker contained itself aswell every action Mate runs.  
 
 Table of Contents
 =================
