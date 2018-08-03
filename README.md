@@ -56,7 +56,18 @@ But let's explain this more slow.
 
 ``` -v /var/run/docker.sock:/var/run/docker.sock ``` 
 
-``` -v env:/env mateci/mate ``` In /env we save all the environment variables that the next action will recieve, because actions cant communicate directly but yes like this. Let's enlighten it with a drawing 
+``` -v env:/env mateci/mate ``` In /env we save all the environment variables that the next action will recieve, because actions cant communicate directly but yes like this. Let's enlighten it with a drawing
+
+
+
+Triggers
+A trigger is a free string, defined by the launcher, that tells Mate which actions to run. An example trigger is github.push, set by the github launcher when someone pushes to a repository.
+
+Chains
+A chain is a sequence of actions inside a trigger. The actions inside a chain are executed sequentially, one after the other, if an action fails, the chain ends and the next one is executed. The first chain to run is always run and then after.
+
+Actions
+Actions are the core of Mate. An action is always a docker container. Every action runs in a new docker container. Actions be a prebuilt docker image (from the docker registry, for example) or a docker image built from a dockerfile in the work directory.
 
 
 
