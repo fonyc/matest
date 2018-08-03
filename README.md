@@ -19,6 +19,8 @@ Mate is an open source CI tool that can make easier the software building, testi
 
 
 ## Why Mate
+- Mate runs every action and itself in a docker container, making the process faster? and free of dependecies. 
+- Mate follows 2 principles: Convention over configuration (Thats why you cant configure the workspace in some other directory)
 
 ## Installing Mate
 
