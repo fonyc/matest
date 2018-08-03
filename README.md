@@ -62,7 +62,8 @@ Actions are the core of Mate. An action is always a docker container. Every acti
 ### Matefile Example
 
 
-```triggers:
+```
+  triggers:
    - trigger: test.build
      chains:
      - start:
