@@ -24,7 +24,7 @@ Table of Contents
 ### Installing Mate
 The first thing we do is downloading the Mate repository
 
-``` git clone www.github.com/mateci ```
+``` git clone https://github.com/patch-notes/mate.git ```
 
 Now we go to the mate folder and build the image 
 
@@ -51,7 +51,7 @@ But let's explain this more slow.
 Matefiles are constructed with YAML. Also, they are composed by three key elements: Triggers, Chains and Actions. 
 
 ### Triggers
-A trigger is a free string, defined by the launcher, that tells Mate which actions to run. An example trigger is ```github.push```, set by the github launcher when someone pushes to a repository.
+A trigger is a free string, defined by the launcher, that tells Mate which actions to run. An example trigger is ```github.push```, set by the github launcher when someone pushes to a repository. They are defined by the environment variable "MATE_TRIGGER" which must have  the same name in the Matefile.
 
 ### Chains
 A chain is a sequence of actions inside a trigger. The actions inside a chain are executed sequentially, one after the other, if an action fails, the chain ends and the next one is executed. The first chain to run is always run and then after.
@@ -65,7 +65,7 @@ Actions are the core of Mate. An action is always a docker container. Every acti
 
 ```
   triggers:
-  - trigger: test.build
+  - trigger: test
      chains:
      - start:
        - build: Dockerfile
