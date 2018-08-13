@@ -19,6 +19,7 @@ Table of Contents
 - Mate runs every action and itself in a docker container, making the process faster? and free of dependecies. 
 - Mate follows 2 principles: 
   - Convention over configuration (Thats why you cant configure the workspace in some other directory)
+  - Do one thing, but do it well (Every container is on charge of a single Action.)
 
 ### Installing Mate
 The first thing we do is downloading the Mate repository
